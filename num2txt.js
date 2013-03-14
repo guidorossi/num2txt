@@ -80,7 +80,7 @@ function numeroaletra(numero) {
   else if(numero < 30){ texto = "veinti" + numeroaletra(numero-20);}
   else if(numero > 30 && numero < 100){ texto = numeroaletra(parseInt(numero/10)*10) + " y " + numeroaletra((numero-(parseInt(numero/10)*10)));}
   else if(numero > 100 && numero < 200){ texto = "ciento " + numeroaletra(numero-100);}
-  else if(numero > 200 && numero < 500 || numero > 800 && numero < 900){ texto = numeroaletra(parseInt(numero/100)) + "cientos " + numeroaletra(numero-(100*parseInt((numero/100))));}
+  else if(numero > 200 && numero < 500 || numero > 600 && numero < 700 || numero > 800 && numero < 900){ texto = numeroaletra(parseInt(numero/100)) + "cientos " + numeroaletra(numero-(100*parseInt((numero/100))));}
   else if(numero > 500 && numero < 600){ texto = "quinientos " + numeroaletra(numero-500);}
   else if(numero > 700 && numero < 800){ texto = "setecientos " + numeroaletra(numero-500);}
   else if(numero > 900 && numero < 1000){ texto = "novecientos " + numeroaletra(numero-900);}

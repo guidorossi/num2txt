@@ -1,3 +1,8 @@
+// Created by Guido Rossi www.guidorossi.com.ar
+// License: Creative Commons Attribution-ShareAlike 3.0 Unported http://creativecommons.org/licenses/by-sa/3.0/
+// Version: 0.1
+
+
 function num2txt(n){
   var entero = numeroaletra(parseInt(n));
   var decimal = Math.round((n%1)*100);

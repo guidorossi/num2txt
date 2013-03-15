@@ -8,9 +8,9 @@ function num2txt(n){
   var decimal = Math.round((n%1)*100);
   if(decimal < 10){ decimal = "0"+decimal};
   return entero + " con " + decimal + " ctvos.---";
-}
-
-function numeroaletra(numero) {
+  
+  
+  function numeroaletra(numero) {
   
   var numero;
   var texto;
@@ -95,3 +95,8 @@ function numeroaletra(numero) {
 
   
 }
+  
+  
+}
+
+

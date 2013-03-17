@@ -124,7 +124,7 @@ function num2txt(n) {
         } else if (numero > 500 && numero < 600) {
             texto = "quinientos " + numeroaletra(numero - 500);
         } else if (numero > 700 && numero < 800) {
-            texto = "setecientos " + numeroaletra(numero - 500);
+            texto = "setecientos " + numeroaletra(numero - 700);
         } else if (numero > 900 && numero < 1000) {
             texto = "novecientos " + numeroaletra(numero - 900);
         } else if (numero > 1000 && numero < 2000) {
